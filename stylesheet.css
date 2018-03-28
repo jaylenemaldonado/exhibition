@@ -2,6 +2,12 @@ body {
 color: white;
 background-image: url("Images/background1.jpg");
 font-family: "Cambria";
+font-size: 22px;
+}
+
+p {
+font-family: "Cambria";
+font-size: 15px;
 }
 
 .grid {
@@ -99,20 +105,6 @@ font-family: "Cambria";
 	grid-row-end: 180;
 	}
 	
-.M {
-	grid-column-start: 1;
-	grid-column-end: span 2;
-	grid-row-start: 180;
-	grid-row-end: 200;
-	}
-  
-.N {
-	grid-column-start: 3;
-	grid-column-end: span 4;
-	grid-row-start: 180;
-	grid-row-end: 200;
-	}
-  
  ul {
     list-style-type: none;
     margin: 0;
